@@ -52,6 +52,8 @@ function Metadata()
 }
 
 
+
+/*
 root.render(
 
   <BrowserRouter>
@@ -73,7 +75,13 @@ root.render(
 
 
 );
+*/
 
+root.render(
+
+<App />
+
+);
 
 /*
   <React.StrictMode>
